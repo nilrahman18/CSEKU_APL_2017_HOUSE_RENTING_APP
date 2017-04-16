@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Division"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/divison_welcome"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:gravity="center"
+        android:id="@+id/dhaka"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chittagong"
+        android:gravity="center"
+        android:id="@+id/chittagong"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khulna"
+        android:gravity="center"
+        android:id="@+id/khulna"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rajshahi"
+        android:gravity="center"
+        android:id="@+id/rajshahi"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sylhet"
+        android:gravity="center"
+        android:id="@+id/sylhet"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barisal"
+        android:gravity="center"
+        android:id="@+id/barisal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rangpur"
+        android:gravity="center"
+        android:id="@+id/rangpur"
+        />
+
+</LinearLayout>

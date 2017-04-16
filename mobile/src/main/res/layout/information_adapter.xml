@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/movieImage"
+            android:padding="10dp"
+            android:src="@drawable/homeicon"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.21"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/divisionTxt"
+        android:gravity="center"
+        android:text="Division"
+        android:layout_below="@+id/name2Txt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_below="@id/divisionTxt"
+        android:id="@id/addressTxt"
+        android:text="Address"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Description"
+        android:id="@+id/descriptionTxt"
+        android:layout_below="@+id/addressTxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_below="@id/descriptionTxt"
+        android:id="@id/priceTxt"
+        android:text="Price"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_below="@id/priceTxt"
+        android:id="@id/contactTxt"
+        android:text="Contact"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Name"
+        android:id="@+id/nameTxt"
+        android:layout_weight="0.21"
+        android:layout_below="@+id/movieImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Owner"
+        android:id="@+id/name2Txt"
+        android:layout_below="@+id/movieImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>

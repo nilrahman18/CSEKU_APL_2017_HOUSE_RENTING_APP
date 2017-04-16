@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Home"
+        android:gravity="center"
+        android:id="@+id/App_Name"
+        android:layout_marginTop="70dp"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Home , Our Happiness"
+        android:gravity="center"
+        android:id="@+id/Welcome_Text"
+        android:textSize="25dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Progress_Bar"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

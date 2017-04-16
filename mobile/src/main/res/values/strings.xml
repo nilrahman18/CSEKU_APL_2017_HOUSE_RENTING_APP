@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My_House_Renting_App</string>
+    <string name="let_s_fill_this_place_with_what_you_are_looking_for">Let\'s Fill This Place With What You Are Looking For.</string>
+    <string name="start_your_search">Start Your Search</string>
+    <string name="upload">Upload</string>
+    <string name="welcome">Welcome!</string>
+    <string name="name">Name</string>
+    <string name="ip_address">http://192.168.0.107/Ads.php</string>
+    <string name="your_home_our_happiness">Your Home , Our Happiness</string>
+</resources>

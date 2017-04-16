@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/back3"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/Informator"
+        android:text="Please Fill Up The Below Informations For Your Advertise"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name (For Example : Mesbah Ur Rahman)"
+        android:id="@+id/Name"
+        android:textColorHint="@android:color/background_dark" />
+    
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/Division"
+       android:hint="Division (For Example : Dhaka)"
+       android:textColorHint="@android:color/background_dark" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address (For Example : 33/Banani Model Town)"
+        android:id="@+id/Address"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:id="@+id/Description"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price (For Example : 10000)"
+        android:id="@+id/Price"
+        android:inputType="number"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number (For Example : 01612004723)"
+        android:inputType="number"
+        android:id="@+id/Contact"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Add_Informations"
+        android:text="Add Informations"
+        android:textColor="@android:color/background_dark" />
+
+</LinearLayout>

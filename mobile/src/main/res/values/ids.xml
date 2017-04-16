@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="addressTxt" type="id">address</item>
+    <item name="priceTxt" type="id">price</item>
+    <item name="contactTxt" type="id">contact</item>
+    <item name="lv2" type="id">lv2</item>
+</resources>

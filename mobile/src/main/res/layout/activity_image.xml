@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Please Upload A Image Of Your Home"
+        android:gravity="center"
+        android:id="@+id/Upload_Image_Text"
+        android:textColor="@android:color/background_dark" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/Image_Viewer"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image"
+        android:id="@+id/Image_Chooser"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/Image_Viewer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/Submit_Picture"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/divisons"
+        android:hint="Division"
+        android:gravity="center"
+        android:layout_below="@+id/Image_Chooser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:textColorHint="@android:color/background_dark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Home Name"
+        android:id="@+id/Home_Name"
+        android:gravity="center"
+        android:textColorHint="@android:color/background_dark"
+        android:layout_below="@+id/divisons"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

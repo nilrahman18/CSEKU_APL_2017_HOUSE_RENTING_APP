@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.niloy.my_house_renting_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+        </activity>
+        <activity android:name=".Upload_Page"/>
+        <activity android:name=".Division_Selector"></activity>
+        <activity android:name=".Search_Khulna"></activity>
+        <activity android:name=".Image_Upload"></activity>
+        <activity android:name=".Search_Dhaka"></activity>
+        <activity android:name=".Search_Rangpur"></activity>
+        <activity android:name=".Search_Barisal"></activity>
+        <activity android:name=".Search_Chittagong"></activity>
+        <activity android:name=".Search_Rajshahi"></activity>
+        <activity android:name=".Search_Sylhet"></activity>
+        <activity android:name=".Home_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+</manifest>
